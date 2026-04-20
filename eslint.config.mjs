@@ -16,6 +16,8 @@ export default defineConfig(
       "**/*.config.cjs",
       "**/*.config.msj",
       "eslint.config.mjs",
+      "**/*.spec.ts",
+      "**/*.test.ts",
     ],
   },
   eslint.configs.recommended,
